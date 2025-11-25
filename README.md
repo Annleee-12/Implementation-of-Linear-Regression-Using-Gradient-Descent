@@ -8,11 +8,36 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+Imports Library:
 
+1. numpy (np): numerical arrays and vectorized math.
+
+2. pandas (pd): reading CSV and manipulating tabular data.
+
+3. StandardScaler: standardizes features to zero mean and unit variance (useful for gradient descent stability).
+
+4.Load and Display the Dataset
+
+5.Handle Categorical Data (State Column)
+
+The dataset has a categorical feature State.
+We convert it into numeric dummy variables using one-hot encoding.
+
+6.Separate Features and Target
+
+7.Feature Scaling
+
+To ensure faster and stable convergence during gradient descent, we scale both features and the target using StandardScaler.
+
+8.Add Bias Term (Intercept)
+
+9.Define Cost Function
+
+10.Implement Gradient Descent
+
+11.Train the Model
+
+12.Plot Cost vs Iterations
 ## Program:
 ```
 /*
